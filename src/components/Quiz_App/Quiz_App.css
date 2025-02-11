@@ -1,0 +1,130 @@
+/* ✅ ADDED: Styles for quiz container */
+.mainContainer {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    min-height: 80vh;
+    background: #f8f9fa;
+    padding: 20px;
+    border-radius: 12px;
+    box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.1);
+  }
+  
+  /* ✅ Improved question text */
+  .questionText {
+    font-size: 1.5rem;
+    font-weight: bold;
+    text-align: center;
+    color: #333;
+    margin-bottom: 20px;
+  }
+  
+  /* ✅ Options Styling */
+  .optionsContainer {
+    display: flex;
+    flex-direction: column;
+    gap: 12px;
+    width: 100%;
+    max-width: 400px;
+  }
+  
+  .option {
+    padding: 12px;
+    text-align: center;
+    background: white;
+    border: 2px solid #007bff;
+    border-radius: 8px;
+    cursor: pointer;
+    transition: 0.3s;
+  }
+  
+  .option:hover {
+    background: #007bff;
+    color: white;
+  }
+  
+  .correct {
+    background: #28a745 !important;
+    border-color: #28a745;
+    color: white;
+  }
+  
+  .incorrect {
+    background: #dc3545 !important;
+    border-color: #dc3545;
+    color: white;
+  }
+  
+  /* ✅ Navigation Buttons */
+  .buttonContainer {
+    display: flex;
+    gap: 10px;
+    margin-top: 20px;
+  }
+  
+  .navButton {
+    padding: 10px 16px;
+    border: none;
+    border-radius: 6px;
+    background: #007bff;
+    color: white;
+    font-size: 1rem;
+    cursor: pointer;
+    transition: 0.3s;
+  }
+  
+  .navButton:disabled {
+    background: #ccc;
+    cursor: not-allowed;
+  }
+  
+  .navButton:hover {
+    background: #0056b3;
+  }
+  
+  .submitButton {
+    padding: 12px 20px;
+    background: #28a745;
+    border: none;
+    border-radius: 6px;
+    color: white;
+    font-size: 1rem;
+    cursor: pointer;
+    transition: 0.3s;
+  }
+  
+  .submitButton:hover {
+    background: #218838;
+  }
+  
+  /* ✅ Score Page */
+  .scoreContainer {
+    text-align: center;
+    padding: 30px;
+    background: white;
+    border-radius: 12px;
+    box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.1);
+  }
+  
+  .scoreText {
+    font-size: 2rem;
+    font-weight: bold;
+    margin-bottom: 20px;
+    color: #333;
+  }
+  
+  .backButton {
+    padding: 10px 16px;
+    background: #ffc107;
+    border: none;
+    border-radius: 6px;
+    font-size: 1rem;
+    cursor: pointer;
+    transition: 0.3s;
+  }
+  
+  .backButton:hover {
+    background: #e0a800;
+  }
+  
